@@ -5,7 +5,6 @@
 
 import React from 'react'
 import {
-  WebView,
   TouchableOpacity,
   View,
   ViewPropTypes,
@@ -15,6 +14,7 @@ import {
   Image,
   // $DisableFlow
 } from 'react-native'
+import WebView from 'react-native-webview'
 import PropTypes from 'prop-types'
 import { pipe, evolve, propSatisfies, applySpec, propOr } from 'ramda'
 import { v4 } from 'uuid'
